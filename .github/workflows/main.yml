@@ -1,0 +1,11 @@
+name: Hello Github Actions 1
+
+on: wokrflow_dispatch
+
+jobs:
+    hello:
+        runs-on: ubuuntu-latest
+
+        steps:
+          - name: Say Hello
+            run: echo "Hello, Github Actions"
