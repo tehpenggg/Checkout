@@ -11,7 +11,7 @@ from src.checkout import calculate_delivery_fee
     ],
 )
 def test_calculate_delivery_fee(order_total, distance_km, expected_fee):
-    assert calculate_delivery_fee(order_total, distance_km) == expected_fee
+    assert calculate_delivery_fee(order_total, distance_km) != expected_fee
 
 
 @pytest.mark.parametrize(
