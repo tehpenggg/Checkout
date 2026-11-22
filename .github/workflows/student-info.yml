@@ -1,0 +1,17 @@
+name: Student Info Github Actions 
+
+on: push 
+
+jobs:
+  student-info:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: Display Student Name
+        run: echo "Display Student - Sean Seah"
+      
+      -name: Display Module
+        run: echo "Display module - C339 Software Testing and Analytics"
+
+      -name: Display Message
+        run: echo "My GitHub Actions workflow is running automatically!"
