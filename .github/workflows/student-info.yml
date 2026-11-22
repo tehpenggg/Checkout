@@ -8,10 +8,10 @@ jobs:
 
     steps:
       -name: Display Student Name
-        run: echo "Display Student - Sean Seah"
+      run: echo "Display Student - Sean Seah"
       
       -name: Display Module
-        run: echo "Display module - C339 Software Testing and Analytics"
+      run: echo "Display module - C339 Software Testing and Analytics"
 
       -name: Display Message
-        run: echo "My GitHub Actions workflow is running automatically!"
+      run: echo "My GitHub Actions workflow is running automatically!"
